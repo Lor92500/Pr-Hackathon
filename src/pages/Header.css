@@ -1,0 +1,26 @@
+.header {
+    background-color: aqua;
+    color: blueviolet;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.head-menu {
+    list-style: none;
+    display: flex;
+}
+
+.head-menu li {
+    display: flex;
+    padding: 0 15px;
+}
+
+.head-menu li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
